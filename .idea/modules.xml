@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-amqp-rabbit/springboot-amqp-rabbit.iml" filepath="$PROJECT_DIR$/springboot-amqp-rabbit/springboot-amqp-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-data-elasticsearch/springboot-data-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-data-elasticsearch/springboot-data-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-data-mybatis/springboot-data-mybatis.iml" filepath="$PROJECT_DIR$/springboot-data-mybatis/springboot-data-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-data-redis/springboot-data-redis.iml" filepath="$PROJECT_DIR$/springboot-data-redis/springboot-data-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-api/springboot-dubbo-api.iml" filepath="$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-api/springboot-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-provider/springboot-dubbo-provider.iml" filepath="$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-provider/springboot-dubbo-provider.iml" />
+    </modules>
+  </component>
+</project>
