@@ -1,0 +1,44 @@
+2018-06-13 09:42:02.346  INFO 7232 --- [main] c.w.SpringbootActuatorAdminApplication   : Starting SpringbootActuatorAdminApplication on JS-yangliu with PID 7232 (D:\study\springboot-all\springboot-actuator-admin\target\classes started by Administrator in D:\study\springboot-all)
+2018-06-13 09:42:02.348  INFO 7232 --- [main] c.w.SpringbootActuatorAdminApplication   : The following profiles are active: prod
+2018-06-13 09:42:02.854  INFO 7232 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@238d68ff: startup date [Wed Jun 13 09:42:02 CST 2018]; root of context hierarchy
+2018-06-13 09:42:03.467  WARN 7232 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.willow.SpringbootActuatorAdminApplication]; nested exception is java.lang.IllegalStateException: Could not evaluate condition on de.codecentric.boot.admin.client.config.SpringBootAdminClientCloudFoundryAutoConfiguration due to org/springframework/boot/context/properties/bind/Binder not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+2018-06-13 09:42:03.499  INFO 7232 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-06-13 09:42:03.507 ERROR 7232 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.willow.SpringbootActuatorAdminApplication]; nested exception is java.lang.IllegalStateException: Could not evaluate condition on de.codecentric.boot.admin.client.config.SpringBootAdminClientCloudFoundryAutoConfiguration due to org/springframework/boot/context/properties/bind/Binder not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:616) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:548) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:185) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:272) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:92) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at com.willow.SpringbootActuatorAdminApplication.main(SpringbootActuatorAdminApplication.java:16) [classes/:na]
+Caused by: java.lang.IllegalStateException: Could not evaluate condition on de.codecentric.boot.admin.client.config.SpringBootAdminClientCloudFoundryAutoConfiguration due to org/springframework/boot/context/properties/bind/Binder not found. Make sure your own configuration does not rely on that class. This can also happen if you are @ComponentScanning a springframework package (e.g. if you put a @ComponentScan in the default package by mistake)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:55) ~[spring-boot-autoconfigure-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:217) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:606) ~[spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	... 15 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/bind/Binder
+	at de.codecentric.boot.admin.client.config.SpringBootAdminClientEnabledCondition.getClientProperties(SpringBootAdminClientEnabledCondition.java:59) ~[spring-boot-admin-client-2.0.0.jar:2.0.0]
+	at de.codecentric.boot.admin.client.config.SpringBootAdminClientEnabledCondition.getMatchOutcome(SpringBootAdminClientEnabledCondition.java:42) ~[spring-boot-admin-client-2.0.0.jar:2.0.0]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.bind.Binder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_161]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_161]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338) ~[na:1.8.0_161]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_161]
+	... 21 common frames omitted
+

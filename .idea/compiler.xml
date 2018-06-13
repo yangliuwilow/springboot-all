@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-actuator-admin" />
         <module name="springboot-amqp-rabbit" />
         <module name="springboot-data-elasticsearch" />
         <module name="springboot-data-mybatis" />
@@ -16,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-actuator-admin" target="1.8" />
       <module name="springboot-amqp-rabbit" target="1.8" />
       <module name="springboot-data-elasticsearch" target="1.8" />
       <module name="springboot-data-mybatis" target="1.8" />

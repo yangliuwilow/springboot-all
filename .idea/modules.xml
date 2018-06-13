@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-actuator-admin/springboot-actuator-admin.iml" filepath="$PROJECT_DIR$/springboot-actuator-admin/springboot-actuator-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-amqp-rabbit/springboot-amqp-rabbit.iml" filepath="$PROJECT_DIR$/springboot-amqp-rabbit/springboot-amqp-rabbit.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-data-elasticsearch/springboot-data-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-data-elasticsearch/springboot-data-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-data-mybatis/springboot-data-mybatis.iml" filepath="$PROJECT_DIR$/springboot-data-mybatis/springboot-data-mybatis.iml" />

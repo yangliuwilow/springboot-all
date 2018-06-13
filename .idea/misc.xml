@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-data-redis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-data-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-actuator-admin/pom.xml" />
       </list>
     </option>
   </component>
