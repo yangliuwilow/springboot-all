@@ -5,6 +5,8 @@ import com.willow.entity.Employee;
 import com.willow.mapper.DepartmentMapper;
 import com.willow.mapper.EmployeeMapper;
 import com.willow.service.DepartmentService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class EmpController {
+    private Logger logger=LoggerFactory.getLogger(EmpController.class);
 
     @Autowired
     private EmployeeMapper employeeMapper;
@@ -37,7 +40,14 @@ public class EmpController {
     @RequestMapping("/dept/getByid/{id}")
     public Department getDetpById(@PathVariable Integer id){
         System.out.println("#####getDetpById");
-        return departmentService.getDeptById(id);
+        Department department= departmentService.getDeptById(id);
+        for (int i = 0; i <100 ; i++) {
+            logger.info("#######"+department);
+            if(i==50){
+                int x=100/(i-50);
+            }
+        }
+        return department;
     }
 
 

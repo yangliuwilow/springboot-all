@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-data-elasticsearch/springboot-data-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-data-elasticsearch/springboot-data-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-data-mybatis/springboot-data-mybatis.iml" filepath="$PROJECT_DIR$/springboot-data-mybatis/springboot-data-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-data-redis/springboot-data-redis.iml" filepath="$PROJECT_DIR$/springboot-data-redis/springboot-data-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-docker/springboot-docker.iml" filepath="$PROJECT_DIR$/springboot-docker/springboot-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-api/springboot-dubbo-api.iml" filepath="$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-api/springboot-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-provider/springboot-dubbo-provider.iml" filepath="$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-provider/springboot-dubbo-provider.iml" />
