@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/springboot-actuator-admin/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-docker/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elastic-job/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elastic-job-starter/pom.xml" />
       </list>
     </option>
   </component>

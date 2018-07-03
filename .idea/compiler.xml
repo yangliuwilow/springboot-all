@@ -15,6 +15,8 @@
         <module name="springboot-dubbo-api" />
         <module name="springboot-dubbo-consumer" />
         <module name="springboot-dubbo-provider" />
+        <module name="springboot-elastic-job" />
+        <module name="springboot-elastic-job-starter" />
         <module name="springboot-web" />
       </profile>
     </annotationProcessing>
@@ -28,6 +30,8 @@
       <module name="springboot-dubbo-api" target="1.8" />
       <module name="springboot-dubbo-consumer" target="1.8" />
       <module name="springboot-dubbo-provider" target="1.8" />
+      <module name="springboot-elastic-job" target="1.8" />
+      <module name="springboot-elastic-job-starter" target="1.8" />
       <module name="springboot-web" target="1.8" />
       <module name="springboot-web-jsp" target="1.8" />
     </bytecodeTargetLevel>
