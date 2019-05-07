@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-provider/springboot-dubbo-provider.iml" filepath="$PROJECT_DIR$/springboot-dubbo/springboot-dubbo-provider/springboot-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elastic-job/springboot-elastic-job.iml" filepath="$PROJECT_DIR$/springboot-elastic-job/springboot-elastic-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elastic-job-starter/springboot-elastic-job-starter.iml" filepath="$PROJECT_DIR$/springboot-elastic-job-starter/springboot-elastic-job-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sentinel/springboot-sentinel.iml" filepath="$PROJECT_DIR$/springboot-sentinel/springboot-sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
     </modules>
   </component>
